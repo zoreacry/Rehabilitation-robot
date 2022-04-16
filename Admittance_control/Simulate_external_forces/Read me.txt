@@ -1,0 +1,4 @@
+Power_matrix : 助力矩阵，可以修改，起到放大运动平台六维力的作用
+Force_sensor_reading :去读力矩传感器上的力（用不到因为没有实物
+ext_F_sim_Admit_diric:使用diric函数来创建了一个流线，用来模仿外力可能出现的形式
+Ext_F_mpla:
