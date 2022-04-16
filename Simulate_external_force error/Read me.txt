@@ -1,0 +1,1 @@
+random_external_force      : 随机出8个数用来模拟外力的变化，外界对他的影响
