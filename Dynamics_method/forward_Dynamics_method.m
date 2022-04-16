@@ -1,0 +1,20 @@
+clc
+clear
+F_1=1;
+F_2=1;
+F_3=1;
+F_4=1;
+F_5=1;
+F_6=1;
+F_7=1;
+F_8=1;
+%-----------------------------------------------------------
+F_rope=[F_1;F_2;F_3;F_4;F_5;F_6;F_7;F_8];
+x=1;
+y=1;
+z=1;
+Roll_now_degree=1;
+Pitch_now_degree=1;
+Yaw_now_degree=1;
+%----------------------------------------------------------
+[accel] = forward_Dynamics(x,y,z,Pitch_now_degree,Yaw_now_degree,Roll_now_degree,Rope_Force) ;
