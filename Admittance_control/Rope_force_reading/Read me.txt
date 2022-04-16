@@ -1,0 +1,3 @@
+Force_Jacobi                                         :   力雅可比函数，用来制造当前的[J]。
+Platform_F_main_noextf                      ：主函数，输入绳索力和位置，将会输出位移
+Platform_limitation_factor_noextf_A ： 限制条件（参考FP方法的逆变换）
