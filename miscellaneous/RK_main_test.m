@@ -1,0 +1,10 @@
+clc
+clear
+x0=0;
+y0=[0,0];
+xt=10;
+n=1000;
+tic
+[t,y]=myrunge_kutta('myfun',x0,xt,y0,n);
+time_rk4=toc;
+plot(t,y),grid;
